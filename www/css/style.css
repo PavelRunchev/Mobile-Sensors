@@ -1,0 +1,102 @@
+.gps-container,
+.compass-container,
+.accelerometer-container {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(247,247,247);
+    box-shadow: 6px 0px 6px #ccc;
+    font-size: 20px;
+}
+
+.compass-inner-container,
+.gps-inner-container,
+.accelerometer-inner-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gps-second-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compass-direction,
+.compass-degree,
+.accelerometer-position {
+    font-weight: bold;
+    color: rgb(0, 122, 255);
+}
+
+.show {
+    display: flex;
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.item-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog {
+    padding-left: 20px;
+}
+
+.loading-img {
+    width: 100%;
+    height: 50%;
+}
+
+.f7-icons,
+.country,
+.city,
+.post-code,
+.street,
+.gps-coordinate,
+.gps-radius {
+    color: rgb(0, 122, 255);
+}
+
+.gps-coordinate-latitude,
+.gps-coordinate-longitude {
+    padding-left: 38px;
+}
+
+#my-map {
+    width: 100%;
+    height: 400px;
+}
+
+h5 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+
+.deviceready {
+    color: rgb(0, 122, 255);
+    padding-left: 20px;
+}
+
+

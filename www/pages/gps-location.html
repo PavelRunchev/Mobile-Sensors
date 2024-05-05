@@ -1,0 +1,52 @@
+<div class="page" data-name="gps-location">
+  <div class="navbar">
+    <div class="navbar-bg"></div>
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a href="#" class="link back">
+          <i class="icon icon-back"></i>
+          <span class="if-not-md">Back</span>
+        </a>
+      </div>
+      <div class="title">GPS location</div>
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="block-title">My location</div>
+    <div class="gps-container">
+      <img class="loading-img show" src="../public/loading.gif"/>
+
+      <div class="gps-inner-container hide">
+        <h3>Your Location!</h3>
+        <div class="gps-second-container">
+          <div class="text-center">
+            <i class="f7-icons size-18">globe</i>
+            &nbsp; Country: &nbsp;<span class="country"></span>
+          </div>
+          <div>
+            <i class="f7-icons size-18">house</i>
+            &nbsp;City: <span class="city"></span>
+          </div>
+          <div>
+            <i class="f7-icons size-18">envelope</i>
+            &nbsp;Code: <span class="post-code"></span>
+          </div>
+          <div>
+            <i class="f7-icons size-18">house</i>
+            &nbsp;Street: <span class="street"></span></div>
+          <div>
+            <i class="f7-icons size-18">placemark</i>
+            &nbsp;Location in radius <span class="gps-radius"></span> m
+            <div> 
+                <span class="gps-coordinate-latitude"></span>
+                <span class="gps-coordinate-longitude"></span>
+            </div>
+          
+        </div>
+      </div>
+
+      <div id="my-map"></div>
+
+    </div>
+  </div>
+</div>
